@@ -98,7 +98,7 @@ def shortest_path(source, target):
 
     # TODO
     if source == target:
-        return None
+        return []
     q_frontier = QueueFrontier()
     explored = {source}
     for neighbor in neighbors_for_person(source):
